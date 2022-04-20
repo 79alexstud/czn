@@ -1,5 +1,24 @@
 package com.company;
 //Game - Lets,s guess number
+
+public class  Main {
+    public static void main(String[] args) {
+    Array arr = new Array();
+    arr.Arr1();
+        }
+}
+
+
+
+
+
+/*public class Main {
+         public static void main () {
+                Array Arr = new Array();
+        }
+}
+
+
 import java.util.Scanner;
 import java.util.Random;
 public class  Main {
@@ -31,3 +50,4 @@ public static int scan(){
         return humanNumber;
         }
         }
+*/
