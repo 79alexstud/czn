@@ -1,5 +1,5 @@
 package com.company;
-//Game - Lets,s guess number
+
 
 public class  Main {
     public static void main(String[] args) {
@@ -12,7 +12,10 @@ public class  Main {
 
 
 
-/*public class Main {
+/*
+Лаб2
+
+        *public class Main {
          public static void main () {
                 Array Arr = new Array();
         }
