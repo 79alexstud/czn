@@ -1,5 +1,5 @@
 package Lab7;
 
-public interface Lbriarian {
+public interface Libriarian {
     void orderbook ();
 }

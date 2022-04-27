@@ -4,7 +4,7 @@ public class Student {
 
     String FirstName, lastName, group, scholar;
     double AverageMark;
-    double[] scores = {5, 5, 5, 5};
+    double[] scores = {5, 4, 5, 5};
 
     Student(String FirstName, String lastName, String group) {
         this.FirstName = FirstName;
@@ -23,10 +23,10 @@ public class Student {
         }
         System.out.println();
     }
-    public void getScholarship(double AverageMark) {
+    public String getScholarship(double AverageMark) {
         if (AverageMark == 5) {
-            scholar = "100 р";
-        } else {scholar = "80 р";}
+            return "100 р";
+        } else {return "80 р";}
         }
 
 
